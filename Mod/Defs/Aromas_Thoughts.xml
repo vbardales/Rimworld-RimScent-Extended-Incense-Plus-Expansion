@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- La part humeur, appliquee par le cadre RimScent lui-meme via ModExtension_Scent sur
+       le brule-encens. stackLimit 1 comme les deux encens d'origine : une source suffit,
+       empiler six brule-encens dans une piece ne doit pas empiler six fois la meme pensee. -->
+
+  <ThoughtDef Name="RimScentExtended_AromaThoughtBase" Abstract="True">
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RimScentExtended_AromaThoughtBase">
+    <defName>RimScentExtended_Scent_Sandalwood</defName>
+    <stages>
+      <li>
+        <label>sandalwood incense</label>
+        <description>Warm, woody smoke. It is hard to stay angry in a room that smells like this.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RimScentExtended_AromaThoughtBase">
+    <defName>RimScentExtended_Scent_Frankincense</defName>
+    <stages>
+      <li>
+        <label>frankincense incense</label>
+        <description>Clean resin smoke. It smells like a place where people take care of each other.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RimScentExtended_AromaThoughtBase">
+    <defName>RimScentExtended_Scent_Psychoid</defName>
+    <stages>
+      <li>
+        <label>psychoid incense</label>
+        <description>A faint psychoid haze. Everything aches a little less.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Un abstinent ne profite pas d'une piece enfumee au smokeleaf. Les degres 1 et 2 de
+       DrugDesire gardent le bonus, comme en amont pour les pensees liees au smokeleaf. -->
+  <ThoughtDef ParentName="RimScentExtended_AromaThoughtBase">
+    <defName>RimScentExtended_Scent_Smokeleaf</defName>
+    <stages>
+      <li>
+        <label>smokeleaf incense</label>
+        <description>The room is thick with sweet smoke. Nothing feels urgent.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+    <nullifyingTraitDegrees>
+      <DrugDesire>-1</DrugDesire>
+    </nullifyingTraitDegrees>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RimScentExtended_AromaThoughtBase">
+    <defName>RimScentExtended_Scent_Berry</defName>
+    <stages>
+      <li>
+        <label>berry incense</label>
+        <description>Sweet berry smoke. It smells like something good is about to be eaten.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RimScentExtended_AromaThoughtBase">
+    <defName>RimScentExtended_Scent_Cocoa</defName>
+    <stages>
+      <li>
+        <label>cocoa incense</label>
+        <description>Dark cocoa smoke. It is the smell of a room where people linger and talk.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

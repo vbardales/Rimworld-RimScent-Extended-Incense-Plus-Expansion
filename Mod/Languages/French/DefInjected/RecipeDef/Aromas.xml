@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RimScentExtended_Make_Sandalwood.label>fabriquer de l'encens de santal</RimScentExtended_Make_Sandalwood.label>
+  <RimScentExtended_Make_Sandalwood.description>Presser des copeaux de bois de cœur avec de la résine d'herbe médicinale pour en faire des bâtonnets à combustion lente.</RimScentExtended_Make_Sandalwood.description>
+  <RimScentExtended_Make_Sandalwood.jobString>Fabrication d'encens de santal.</RimScentExtended_Make_Sandalwood.jobString>
+  <RimScentExtended_Make_Frankincense.label>fabriquer de l'encens d'oliban</RimScentExtended_Make_Frankincense.label>
+  <RimScentExtended_Make_Frankincense.description>Lier de la résine médicinale à de la sciure de bois et la rouler en bâtonnets.</RimScentExtended_Make_Frankincense.description>
+  <RimScentExtended_Make_Frankincense.jobString>Fabrication d'encens d'oliban.</RimScentExtended_Make_Frankincense.jobString>
+  <RimScentExtended_Make_Psychoid.label>fabriquer de l'encens de psychoïde</RimScentExtended_Make_Psychoid.label>
+  <RimScentExtended_Make_Psychoid.description>Rouler des feuilles de psychoïde séchées en bâtonnets à combustion lente.</RimScentExtended_Make_Psychoid.description>
+  <RimScentExtended_Make_Psychoid.jobString>Fabrication d'encens de psychoïde.</RimScentExtended_Make_Psychoid.jobString>
+  <RimScentExtended_Make_Smokeleaf.label>fabriquer de l'encens de smokeleaf</RimScentExtended_Make_Smokeleaf.label>
+  <RimScentExtended_Make_Smokeleaf.description>Lier des chutes de smokeleaf à de la sciure de bois et les rouler en bâtonnets.</RimScentExtended_Make_Smokeleaf.description>
+  <RimScentExtended_Make_Smokeleaf.jobString>Fabrication d'encens de smokeleaf.</RimScentExtended_Make_Smokeleaf.jobString>
+  <RimScentExtended_Make_Berry.label>fabriquer de l'encens de baies</RimScentExtended_Make_Berry.label>
+  <RimScentExtended_Make_Berry.description>Écraser et sécher des baies, puis les presser sur des bâtonnets.</RimScentExtended_Make_Berry.description>
+  <RimScentExtended_Make_Berry.jobString>Fabrication d'encens de baies.</RimScentExtended_Make_Berry.jobString>
+  <RimScentExtended_Make_Cocoa.label>fabriquer de l'encens de cacao</RimScentExtended_Make_Cocoa.label>
+  <RimScentExtended_Make_Cocoa.description>Broyer du cacao dans le liant et le rouler en bâtonnets.</RimScentExtended_Make_Cocoa.description>
+  <RimScentExtended_Make_Cocoa.jobString>Fabrication d'encens de cacao.</RimScentExtended_Make_Cocoa.jobString>
+
+</LanguageData>

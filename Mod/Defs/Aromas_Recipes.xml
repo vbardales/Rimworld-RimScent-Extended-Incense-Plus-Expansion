@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Memes etablis que les deux encens d'origine apres notre patch d'equilibrage : poste
+       d'artisanat pour rester accessible a une colonie neolithique, laboratoire de drogues
+       pour ceux qui l'ont. Pas de workSkill, comme en amont. -->
+
+  <RecipeDef Abstract="True" Name="RimScentExtended_Recipe_AromaBase">
+    <workAmount>1400</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_MakeBow</soundWorking>
+    <researchPrerequisite>RimScentExtended_AromaticIncense</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RimScentExtended_Recipe_AromaBase">
+    <defName>RimScentExtended_Make_Sandalwood</defName>
+    <label>make sandalwood incense</label>
+    <description>Press heartwood shavings with herbal resin into slow-burning sticks.</description>
+    <jobString>Crafting sandalwood incense.</jobString>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>WoodLog</li></thingDefs></filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>MedicineHerbal</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>MedicineHerbal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RimScentExtended_Incense_Sandalwood>16</RimScentExtended_Incense_Sandalwood>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RimScentExtended_Recipe_AromaBase">
+    <defName>RimScentExtended_Make_Frankincense</defName>
+    <label>make frankincense</label>
+    <description>Bind medicinal resin to wood dust and roll it into sticks.</description>
+    <jobString>Crafting frankincense.</jobString>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>WoodLog</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>MedicineHerbal</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>MedicineHerbal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RimScentExtended_Incense_Frankincense>16</RimScentExtended_Incense_Frankincense>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RimScentExtended_Recipe_AromaBase">
+    <defName>RimScentExtended_Make_Psychoid</defName>
+    <label>make psychoid incense</label>
+    <description>Roll dried psychoid leaf into slow-burning sticks.</description>
+    <jobString>Crafting psychoid incense.</jobString>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>WoodLog</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>PsychoidLeaves</li></thingDefs></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>PsychoidLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RimScentExtended_Incense_Psychoid>16</RimScentExtended_Incense_Psychoid>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RimScentExtended_Recipe_AromaBase">
+    <defName>RimScentExtended_Make_Smokeleaf</defName>
+    <label>make smokeleaf incense</label>
+    <description>Bind smokeleaf trimmings with wood dust and roll them into sticks.</description>
+    <jobString>Crafting smokeleaf incense.</jobString>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>WoodLog</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>SmokeleafLeaves</li></thingDefs></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>SmokeleafLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RimScentExtended_Incense_Smokeleaf>16</RimScentExtended_Incense_Smokeleaf>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RimScentExtended_Recipe_AromaBase">
+    <defName>RimScentExtended_Make_Berry</defName>
+    <label>make berry incense</label>
+    <description>Crush and dry berries, then press them onto sticks.</description>
+    <jobString>Crafting berry incense.</jobString>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>WoodLog</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>RawBerries</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>RawBerries</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RimScentExtended_Incense_Berry>16</RimScentExtended_Incense_Berry>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RimScentExtended_Recipe_AromaBase">
+    <defName>RimScentExtended_Make_Cocoa</defName>
+    <label>make cocoa incense</label>
+    <description>Grind cocoa into the binder and roll it into sticks.</description>
+    <jobString>Crafting cocoa incense.</jobString>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>WoodLog</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Chocolate</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>Chocolate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RimScentExtended_Incense_Cocoa>16</RimScentExtended_Incense_Cocoa>
+    </products>
+  </RecipeDef>
+
+</Defs>

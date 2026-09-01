@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- 1. Les deux recettes d'encens d'origine passent derriere la recherche. On vise le
+          def abstrait parent : les operations de patch s'appliquent au XML brut, avant la
+          resolution de l'heritage, donc les deux enfants en heritent. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[@Name="RimScent_Recipe_IncenseBase"]</xpath>
+    <value>
+      <researchPrerequisite>RimScentExtended_IncenseCrafting</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <!-- 2. Le brule-encens aussi : le construire sans pouvoir l'alimenter n'aurait pas de
+          sens. Nos six aromes heritent de ce parent, donc de cette recherche, puis y
+          ajoutent la leur. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="RimScent_IncenseBurnerBase"]</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>RimScentExtended_IncenseCrafting</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <!-- 3. Etablis : on retire les deux forges (FueledSmithy, ElectricSmithy), qui travaillent
+          le metal et n'ont rien a voir avec la fabrication de batonnets parfumes, et on
+          ajoute le laboratoire de drogues, ou les parfums de l'autre extension sont deja
+          fabriques. Le poste d'artisanat reste, sans quoi une colonie neolithique serait
+          exclue de sa propre technologie. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[@Name="RimScent_Recipe_IncenseBase"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+</Patch>

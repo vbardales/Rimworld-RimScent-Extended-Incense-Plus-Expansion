@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- L'extension encens ne pose aucune condition de recherche, alors que l'extension
+       parfums exige PerfumeTech. Resultat : un brule-encens a +6 d'humeur permanent est
+       disponible des le premier jour, pour 4 bois et 4 baies. On aligne l'encens sur les
+       parfums avec une recherche a lui.
+
+       Neolithique et sans prerequis, pour rester accessible a une colonie tribale : c'est
+       le brule-encens qui est neolithique, pas le laboratoire de drogues. -->
+  <ResearchProjectDef>
+    <defName>RimScentExtended_IncenseCrafting</defName>
+    <label>incense crafting</label>
+    <description>Bind fragrant resins, herbs and wood dust into slow-burning sticks, and shape the burners that hold them.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.75</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- Second palier : les six aromes a effet. Ils portent de vrais hediffs (immunite,
+       douleur, vitesse de travail, influence sociale), pas seulement de l'humeur, d'ou un
+       cout double et un prerequis. -->
+  <ResearchProjectDef>
+    <defName>RimScentExtended_AromaticIncense</defName>
+    <label>aromatic incense</label>
+    <description>Isolate what a burning stick actually carries into the lungs, and blend six aromas whose effects reach past the nose.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>RimScentExtended_IncenseCrafting</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.75</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

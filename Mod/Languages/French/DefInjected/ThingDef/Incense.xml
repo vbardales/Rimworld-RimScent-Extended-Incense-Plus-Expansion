@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Traduction de l'extension encens d'origine, qui n'avait aucun dossier Languages. -->
+
+  <RimScent_SoothingIncense.label>encens apaisant</RimScent_SoothingIncense.label>
+  <RimScent_SoothingIncense.description>Un fagot de bâtonnets apaisants et aromatiques. En brûlant, ils dégagent une fumée parfumée qui peut légèrement améliorer l'humeur.</RimScent_SoothingIncense.description>
+  <RimScent_AcridIncense.label>encens âcre</RimScent_AcridIncense.label>
+  <RimScent_AcridIncense.description>Un fagot de bâtonnets âcres et piquants. En brûlant, ils dégagent une fumée fétide qui peut légèrement dégrader l'humeur.</RimScent_AcridIncense.description>
+  <RimScent_IncenseBurnerSoothing.label>brûle-encens (apaisant)</RimScent_IncenseBurnerSoothing.label>
+  <RimScent_IncenseBurnerSoothing.description>Fait brûler des bâtonnets d'encens apaisant pour diffuser des senteurs aromatiques dans l'air.</RimScent_IncenseBurnerSoothing.description>
+  <RimScent_IncenseBurnerAcrid.label>brûle-encens (âcre)</RimScent_IncenseBurnerAcrid.label>
+  <RimScent_IncenseBurnerAcrid.description>Fait brûler des bâtonnets d'encens âcre pour diffuser des senteurs fétides dans l'air.</RimScent_IncenseBurnerAcrid.description>
+
+</LanguageData>

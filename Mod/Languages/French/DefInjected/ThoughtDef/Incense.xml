@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Les deux pensees de l'extension encens d'origine, qui n'a aucun dossier Languages. -->
+
+  <RimScent_SoothingIncenseScent.stages.soothing_incense.label>encens apaisant</RimScent_SoothingIncenseScent.stages.soothing_incense.label>
+  <RimScent_SoothingIncenseScent.stages.soothing_incense.description>Une senteur agréable et aromatique venue de l'encens qui brûle.</RimScent_SoothingIncenseScent.stages.soothing_incense.description>
+  <RimScent_AcridIncenseScent.stages.acrid_incense.label>encens âcre</RimScent_AcridIncenseScent.stages.acrid_incense.label>
+  <RimScent_AcridIncenseScent.stages.acrid_incense.description>Une senteur fétide et piquante venue de l'encens qui brûle.</RimScent_AcridIncenseScent.stages.acrid_incense.description>
+
+</LanguageData>

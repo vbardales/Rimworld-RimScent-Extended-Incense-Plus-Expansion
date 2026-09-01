@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- L'effet mecanique de chaque arome. Le cadre RimScent ne sait appliquer qu'une
+       ThoughtDef : ces hediffs sont poses par ModExtension_ScentHediff, fournie par
+       RimScent Extended et accrochee au brule-encens. D'ou la dependance dure au socle.
+
+       HediffComp_Disappears sert de minuterie : le scan repousse l'echeance a chaque
+       passage tant que le colon reste expose, et l'effet s'estompe ~1500 ticks apres qu'il
+       a quitte la piece. L'intervalle de scan de RimScent va de 60 a 1000 ticks, donc la
+       minuterie couvre le pire cas sans jamais expirer sous le nez du colon. -->
+
+  <HediffDef Name="RimScentExtended_AromaBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <maxSeverity>1.0</maxSeverity>
+    <initialSeverity>1.0</initialSeverity>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1500</disappearsAfterTicks>
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RimScentExtended_AromaBase">
+    <defName>RimScentExtended_Aroma_Sandalwood</defName>
+    <label>sandalwood in the air</label>
+    <description>Warm sandalwood smoke. Nerves are less frayed and quarrels less likely.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+        </statOffsets>
+        <socialFightChanceFactor>0.5</socialFightChanceFactor>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RimScentExtended_AromaBase">
+    <defName>RimScentExtended_Aroma_Frankincense</defName>
+    <label>frankincense in the air</label>
+    <description>Resinous smoke in the lungs. The body fights infection faster and shrugs off toxins.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+          <ToxicResistance>0.15</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RimScentExtended_AromaBase">
+    <defName>RimScentExtended_Aroma_Psychoid</defName>
+    <label>psychoid in the air</label>
+    <description>Psychoid smoke. Aches recede and sleep comes easier.</description>
+    <stages>
+      <li>
+        <painFactor>0.75</painFactor>
+        <restFallFactor>0.90</restFallFactor>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RimScentExtended_AromaBase">
+    <defName>RimScentExtended_Aroma_Smokeleaf</defName>
+    <label>smokeleaf in the air</label>
+    <description>A thick, easy haze. Nothing seems urgent, and nothing gets done quickly either.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+        </statOffsets>
+        <restFallFactor>0.85</restFallFactor>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RimScentExtended_AromaBase">
+    <defName>RimScentExtended_Aroma_Berry</defName>
+    <label>berry smoke in the air</label>
+    <description>Bright, sugary smoke. It keeps hands moving.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <WorkSpeedGlobal>0.06</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RimScentExtended_AromaBase">
+    <defName>RimScentExtended_Aroma_Cocoa</defName>
+    <label>cocoa in the air</label>
+    <description>Rich, dark smoke. It loosens tongues and softens hard bargains.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <NegotiationAbility>0.15</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

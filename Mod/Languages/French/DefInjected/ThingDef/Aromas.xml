@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- La terminologie suit la traduction officielle : « psychoide », « smokeleaf » non
+       traduit, « baie », « chocolat ». -->
+
+  <RimScentExtended_Incense_Sandalwood.label>encens de santal</RimScentExtended_Incense_Sandalwood.label>
+  <RimScentExtended_Incense_Sandalwood.description>Des copeaux de bois de cœur pressés avec de la résine d'herbe médicinale. La fumée est chaude et boisée, et apaise un esprit agité.</RimScentExtended_Incense_Sandalwood.description>
+  <RimScentExtended_Incense_Frankincense.label>encens d'oliban</RimScentExtended_Incense_Frankincense.label>
+  <RimScentExtended_Incense_Frankincense.description>De la résine médicinale liée à de la sciure de bois. La fumée est vive et nette, et dégage la poitrine.</RimScentExtended_Incense_Frankincense.description>
+  <RimScentExtended_Incense_Psychoid.label>encens de psychoïde</RimScentExtended_Incense_Psychoid.label>
+  <RimScentExtended_Incense_Psychoid.description>Des feuilles de psychoïde séchées roulées en bâtonnets à combustion lente. La fumée émousse les douleurs sans l'emprise de la drogue raffinée.</RimScentExtended_Incense_Psychoid.description>
+  <RimScentExtended_Incense_Smokeleaf.label>encens de smokeleaf</RimScentExtended_Incense_Smokeleaf.label>
+  <RimScentExtended_Incense_Smokeleaf.description>Des chutes de smokeleaf liées à de la sciure de bois. En brûlant, elles emplissent la pièce d'une brume tranquille et sans hâte.</RimScentExtended_Incense_Smokeleaf.description>
+  <RimScentExtended_Incense_Berry.label>encens de baies</RimScentExtended_Incense_Berry.label>
+  <RimScentExtended_Incense_Berry.description>Des baies écrasées, séchées et pressées sur des bâtonnets. La fumée est vive et sucrée, et empêche les mains de s'arrêter.</RimScentExtended_Incense_Berry.description>
+  <RimScentExtended_Incense_Cocoa.label>encens de cacao</RimScentExtended_Incense_Cocoa.label>
+  <RimScentExtended_Incense_Cocoa.description>Du cacao broyé dans le liant. La fumée est riche et sombre, et délie les langues.</RimScentExtended_Incense_Cocoa.description>
+
+  <RimScentExtended_Burner_Sandalwood.label>brûle-encens (santal)</RimScentExtended_Burner_Sandalwood.label>
+  <RimScentExtended_Burner_Sandalwood.description>Fait brûler de l'encens de santal. La fumée chaude calme les nerfs à vif et désamorce les disputes.</RimScentExtended_Burner_Sandalwood.description>
+  <RimScentExtended_Burner_Frankincense.label>brûle-encens (oliban)</RimScentExtended_Burner_Frankincense.label>
+  <RimScentExtended_Burner_Frankincense.description>Fait brûler de l'encens d'oliban. La fumée résineuse aide le corps à combattre les infections et à évacuer les toxines.</RimScentExtended_Burner_Frankincense.description>
+  <RimScentExtended_Burner_Psychoid.label>brûle-encens (psychoïde)</RimScentExtended_Burner_Psychoid.label>
+  <RimScentExtended_Burner_Psychoid.description>Fait brûler de l'encens de psychoïde. La brume émousse la douleur et facilite le repos.</RimScentExtended_Burner_Psychoid.description>
+  <RimScentExtended_Burner_Smokeleaf.label>brûle-encens (smokeleaf)</RimScentExtended_Burner_Smokeleaf.label>
+  <RimScentExtended_Burner_Smokeleaf.description>Fait brûler de l'encens de smokeleaf. La pièce s'emplit d'une brume tranquille : le moral monte, le sommeil s'améliore, et le travail ralentit.</RimScentExtended_Burner_Smokeleaf.description>
+  <RimScentExtended_Burner_Berry.label>brûle-encens (baies)</RimScentExtended_Burner_Berry.label>
+  <RimScentExtended_Burner_Berry.description>Fait brûler de l'encens de baies. La fumée vive et sucrée empêche les mains de s'arrêter.</RimScentExtended_Burner_Berry.description>
+  <RimScentExtended_Burner_Cocoa.label>brûle-encens (cacao)</RimScentExtended_Burner_Cocoa.label>
+  <RimScentExtended_Burner_Cocoa.description>Fait brûler de l'encens de cacao. La fumée riche délie les langues et adoucit les négociations difficiles.</RimScentExtended_Burner_Cocoa.description>
+
+</LanguageData>

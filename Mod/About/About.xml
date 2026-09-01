@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RimScent Extended: Incense Plus Expansion</name>
+	<author>nelim</author>
+	<packageId>nelim.rimscent.extended.incenseplus</packageId>
+	<description>Six incenses whose effects reach past the nose.
+
+RimScent's Incense Expansion gives you two sticks: one that lifts the mood a little, one that lowers it. This adds six more, each with a real effect on the body, in the spirit of Rimcense: Neolithic Soothe — which never left 1.4.
+
+THE SIX AROMAS
+- Sandalwood. Warm and woody. Mental break threshold -0.06, and colonists are half as likely to start a fight. The incense you burn in a crowded barracks.
+- Frankincense. Sharp and clean. Immunity gain +0.10 and toxic resistance +0.15. The incense you burn in the hospital.
+- Psychoid. Pain -25%, rest falls 10% slower. Dulls aches without the grip of the refined drug.
+- Smokeleaf. The best mood in the set, +5, and rest falls 15% slower — but global work speed -5%, and an ascetic gets nothing out of it. The room is pleasant and nothing gets done.
+- Berry. Bright and sugary. Work speed +6%.
+- Cocoa. Rich and dark. Social impact and negotiation +0.15. Burn it before a trade caravan arrives.
+
+The mood is separate from the effect: standing in the room gives you the thought, and the hediff on top of it. Both fade about 25 seconds after the colonist leaves, so an aroma follows the pawn, not the building.
+
+THE SIX BURNERS
+One button in the Architect menu, six variants in the dropdown, each glowing in its own colour. They inherit from the Incense Expansion's own burner, so they behave exactly like it: switchable, refuellable, a little light and a little heat.
+
+BALANCE, AS A SIDE EFFECT
+The original incense had no research requirement at all, so a permanent +6 mood burner was available on day one for four wood and four berries — while the Perfume Expansion gated its own content behind PerfumeTech. This adds two neolithic research projects: incense crafting (500), and aromatic incense (1000) for the six aromas here. Tribal starts are not locked out — the burner is neolithic, and the crafting spot still works.
+
+It also drops the two smithies from the original incense recipes, which had no business shaping fragrant sticks out of metal, and adds the drug lab, where the perfumes are already made.
+
+Ships in English with a French translation injected on top — including the Incense Expansion itself, which had no Languages folder at all. Works in any language.
+
+No save data. Requires RimScent, RimScent Extended and the Incense Expansion.</description>
+	<modVersion>0.1.0</modVersion>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>reo.RimScent</packageId>
+			<displayName>RimScent</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3645569466</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ocarina.rimscent.incense</packageId>
+			<displayName>RimScent: Incense Expansion</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3678830567</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>nelim.rimscent.extended</packageId>
+			<displayName>RimScent Extended</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>reo.RimScent</li>
+		<!-- Nos brule-encens heritent de RimScent_IncenseBurnerBase et nos patchs visent
+		     ses defs : il faut passer apres l'extension encens. -->
+		<li>ocarina.rimscent.incense</li>
+		<!-- Le socle porte ModExtension_ScentHediff, sans laquelle les six aromes ne
+		     poseraient que de l'humeur, sans aucun effet. -->
+		<li>nelim.rimscent.extended</li>
+	</loadAfter>
+</ModMetaData>

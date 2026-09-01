@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Six encens a effet, dans l'esprit de Rimcense: Neolithic Soothe (velcroboy333,
+       Hydromancerx), reste en 1.4. Aucun fichier de Rimcense n'est repris : il n'annonce
+       aucune licence, donc ni ses defs, ni ses plantes (santal, oliban, adragante), ni ses
+       textures. Les ingredients sont tous vanilla, et le santal comme l'oliban sont ici des
+       preparations a base de bois et d'herbe medicinale, pas des especes nouvelles.
+
+       Les textures reutilisees viennent de l'Incense Expansion, chargee comme dependance :
+       rien n'est redistribue. Une teinte par arome distingue les six en reserve. -->
+
+  <ThingDef ParentName="ResourceBase" Name="RimScentExtended_AromaticIncenseBase" Abstract="True">
+    <possessionCount>16</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/IncenseSticks_Soothing</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Mass>0.1</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <allowedArchonexusCount>16</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticIncenseBase">
+    <defName>RimScentExtended_Incense_Sandalwood</defName>
+    <graphicData>
+      <color>(217,180,124)</color>
+    </graphicData>
+    <label>sandalwood incense</label>
+    <description>Heartwood shavings pressed with herbal resin. The smoke is warm and woody, and settles a restless mind.</description>
+    <statBases>
+      <MarketValue>9.50</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticIncenseBase">
+    <defName>RimScentExtended_Incense_Frankincense</defName>
+    <graphicData>
+      <color>(232,224,186)</color>
+    </graphicData>
+    <label>frankincense incense</label>
+    <description>Medicinal resin bound to wood dust. The smoke is sharp and clean, and clears the chest.</description>
+    <statBases>
+      <MarketValue>12.00</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticIncenseBase">
+    <defName>RimScentExtended_Incense_Psychoid</defName>
+    <graphicData>
+      <color>(150,199,232)</color>
+    </graphicData>
+    <label>psychoid incense</label>
+    <description>Dried psychoid leaf rolled into slow-burning sticks. The smoke dulls aches without the grip of the refined drug.</description>
+    <statBases>
+      <MarketValue>11.00</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticIncenseBase">
+    <defName>RimScentExtended_Incense_Smokeleaf</defName>
+    <graphicData>
+      <color>(154,199,133)</color>
+    </graphicData>
+    <label>smokeleaf incense</label>
+    <description>Smokeleaf trimmings bound with wood dust. Burning it fills the room with an easy, unhurried haze.</description>
+    <statBases>
+      <MarketValue>10.00</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticIncenseBase">
+    <defName>RimScentExtended_Incense_Berry</defName>
+    <graphicData>
+      <color>(223,124,181)</color>
+    </graphicData>
+    <label>berry incense</label>
+    <description>Berries crushed, dried and pressed onto sticks. The smoke is bright and sugary, and keeps hands moving.</description>
+    <statBases>
+      <MarketValue>8.50</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticIncenseBase">
+    <defName>RimScentExtended_Incense_Cocoa</defName>
+    <graphicData>
+      <color>(150,105,75)</color>
+    </graphicData>
+    <label>cocoa incense</label>
+    <description>Cocoa ground into the binder. The smoke is rich and dark, and loosens tongues.</description>
+    <statBases>
+      <MarketValue>13.00</MarketValue>
+    </statBases>
+  </ThingDef>
+
+</Defs>

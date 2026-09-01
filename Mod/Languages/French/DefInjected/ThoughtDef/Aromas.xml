@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Les pensees n'ont qu'un seul stage, mais RimWorld indexe par la poignee du label, pas par la position. -->
+
+  <RimScentExtended_Scent_Sandalwood.stages.sandalwood_incense.label>encens de santal</RimScentExtended_Scent_Sandalwood.stages.sandalwood_incense.label>
+  <RimScentExtended_Scent_Sandalwood.stages.sandalwood_incense.description>Une fumée chaude et boisée. Difficile de rester en colère dans une pièce qui sent comme ça.</RimScentExtended_Scent_Sandalwood.stages.sandalwood_incense.description>
+  <RimScentExtended_Scent_Frankincense.stages.frankincense_incense.label>encens d'oliban</RimScentExtended_Scent_Frankincense.stages.frankincense_incense.label>
+  <RimScentExtended_Scent_Frankincense.stages.frankincense_incense.description>Une fumée de résine, nette. Ça sent l'endroit où les gens prennent soin les uns des autres.</RimScentExtended_Scent_Frankincense.stages.frankincense_incense.description>
+  <RimScentExtended_Scent_Psychoid.stages.psychoid_incense.label>encens de psychoïde</RimScentExtended_Scent_Psychoid.stages.psychoid_incense.label>
+  <RimScentExtended_Scent_Psychoid.stages.psychoid_incense.description>Une légère brume de psychoïde. Tout fait un peu moins mal.</RimScentExtended_Scent_Psychoid.stages.psychoid_incense.description>
+  <RimScentExtended_Scent_Smokeleaf.stages.smokeleaf_incense.label>encens de smokeleaf</RimScentExtended_Scent_Smokeleaf.stages.smokeleaf_incense.label>
+  <RimScentExtended_Scent_Smokeleaf.stages.smokeleaf_incense.description>La pièce est pleine d'une fumée douce. Plus rien ne semble urgent.</RimScentExtended_Scent_Smokeleaf.stages.smokeleaf_incense.description>
+  <RimScentExtended_Scent_Berry.stages.berry_incense.label>encens de baies</RimScentExtended_Scent_Berry.stages.berry_incense.label>
+  <RimScentExtended_Scent_Berry.stages.berry_incense.description>Une fumée sucrée de baies. Ça sent comme si on allait manger quelque chose de bon.</RimScentExtended_Scent_Berry.stages.berry_incense.description>
+  <RimScentExtended_Scent_Cocoa.stages.cocoa_incense.label>encens de cacao</RimScentExtended_Scent_Cocoa.stages.cocoa_incense.label>
+  <RimScentExtended_Scent_Cocoa.stages.cocoa_incense.description>Une fumée sombre de cacao. C'est l'odeur d'une pièce où les gens s'attardent et discutent.</RimScentExtended_Scent_Cocoa.stages.cocoa_incense.description>
+
+</LanguageData>

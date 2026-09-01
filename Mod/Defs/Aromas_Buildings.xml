@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Un brule-encens par arome, comme en amont : le cadre RimScent lit l'odeur sur le def
+       du batiment, pas sur le combustible charge, et CompRefuelable ne memorise qu'une
+       quantite, jamais quel ThingDef a ete charge. Un brule-encens universel serait donc
+       incapable de savoir ce qu'il brule.
+
+       Les six sont regroupes sous un DesignatorDropdownGroupDef, pour n'occuper qu'un seul
+       bouton dans le menu Architecte au lieu de six, et se distinguent par la couleur de
+       leur lueur.
+
+       Ils heritent de RimScent_IncenseBurnerBase, fourni par l'Incense Expansion, donc de
+       la recherche que notre patch d'equilibrage pose sur ce parent, puis de la recherche
+       avancee ajoutee ici. -->
+
+  <DesignatorDropdownGroupDef>
+    <defName>RimScentExtended_AromaticBurners</defName>
+    <label>aromatic incense burner</label>
+  </DesignatorDropdownGroupDef>
+
+  <ThingDef ParentName="RimScent_IncenseBurnerBase" Name="RimScentExtended_AromaticBurnerBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Building/Misc/IncenseBurner_Soothing/IncenseBurner_Soothing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(1,1,1)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <designatorDropdown>RimScentExtended_AromaticBurners</designatorDropdown>
+    <researchPrerequisites>
+      <li>RimScentExtended_AromaticIncense</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticBurnerBase">
+    <defName>RimScentExtended_Burner_Sandalwood</defName>
+    <label>incense burner (sandalwood)</label>
+    <description>Burns sandalwood incense. The warm smoke steadies frayed nerves and takes the edge off arguments.</description>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>24.0</fuelConsumptionRate>
+        <fuelCapacity>75</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>RimScentExtended_Incense_Sandalwood</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(217,180,124,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="RimScentReworked.ModExtension_Scent">
+        <thought>RimScentExtended_Scent_Sandalwood</thought>
+      </li>
+      <li Class="RimScentExtended.ModExtension_ScentHediff">
+        <hediff>RimScentExtended_Aroma_Sandalwood</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticBurnerBase">
+    <defName>RimScentExtended_Burner_Frankincense</defName>
+    <label>incense burner (frankincense)</label>
+    <description>Burns frankincense. The resinous smoke helps the body fight infection and shrug off toxins.</description>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>24.0</fuelConsumptionRate>
+        <fuelCapacity>75</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>RimScentExtended_Incense_Frankincense</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(232,224,186,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="RimScentReworked.ModExtension_Scent">
+        <thought>RimScentExtended_Scent_Frankincense</thought>
+      </li>
+      <li Class="RimScentExtended.ModExtension_ScentHediff">
+        <hediff>RimScentExtended_Aroma_Frankincense</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticBurnerBase">
+    <defName>RimScentExtended_Burner_Psychoid</defName>
+    <label>incense burner (psychoid)</label>
+    <description>Burns psychoid incense. The haze dulls pain and makes rest come easier.</description>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>24.0</fuelConsumptionRate>
+        <fuelCapacity>75</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>RimScentExtended_Incense_Psychoid</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(150,199,232,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="RimScentReworked.ModExtension_Scent">
+        <thought>RimScentExtended_Scent_Psychoid</thought>
+      </li>
+      <li Class="RimScentExtended.ModExtension_ScentHediff">
+        <hediff>RimScentExtended_Aroma_Psychoid</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticBurnerBase">
+    <defName>RimScentExtended_Burner_Smokeleaf</defName>
+    <label>incense burner (smokeleaf)</label>
+    <description>Burns smokeleaf incense. The room fills with an easy haze: spirits lift, sleep improves, and work slows down.</description>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>24.0</fuelConsumptionRate>
+        <fuelCapacity>75</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>RimScentExtended_Incense_Smokeleaf</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(154,199,133,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="RimScentReworked.ModExtension_Scent">
+        <thought>RimScentExtended_Scent_Smokeleaf</thought>
+      </li>
+      <li Class="RimScentExtended.ModExtension_ScentHediff">
+        <hediff>RimScentExtended_Aroma_Smokeleaf</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticBurnerBase">
+    <defName>RimScentExtended_Burner_Berry</defName>
+    <label>incense burner (berry)</label>
+    <description>Burns berry incense. The bright, sugary smoke keeps hands moving.</description>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>24.0</fuelConsumptionRate>
+        <fuelCapacity>75</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>RimScentExtended_Incense_Berry</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(223,124,181,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="RimScentReworked.ModExtension_Scent">
+        <thought>RimScentExtended_Scent_Berry</thought>
+      </li>
+      <li Class="RimScentExtended.ModExtension_ScentHediff">
+        <hediff>RimScentExtended_Aroma_Berry</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="RimScentExtended_AromaticBurnerBase">
+    <defName>RimScentExtended_Burner_Cocoa</defName>
+    <label>incense burner (cocoa)</label>
+    <description>Burns cocoa incense. The rich smoke loosens tongues and softens hard bargains.</description>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>24.0</fuelConsumptionRate>
+        <fuelCapacity>75</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>RimScentExtended_Incense_Cocoa</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(186,133,94,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="RimScentReworked.ModExtension_Scent">
+        <thought>RimScentExtended_Scent_Cocoa</thought>
+      </li>
+      <li Class="RimScentExtended.ModExtension_ScentHediff">
+        <hediff>RimScentExtended_Aroma_Cocoa</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

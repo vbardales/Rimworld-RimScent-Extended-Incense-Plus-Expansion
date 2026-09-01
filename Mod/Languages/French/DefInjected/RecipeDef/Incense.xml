@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Les deux recettes de l'extension encens d'origine. -->
+
+  <RimScent_Make_SoothingIncense.label>fabriquer de l'encens apaisant</RimScent_Make_SoothingIncense.label>
+  <RimScent_Make_SoothingIncense.description>Fabriquer de l'encens apaisant à partir de bois et d'ingrédients qui sentent bon.</RimScent_Make_SoothingIncense.description>
+  <RimScent_Make_SoothingIncense.jobString>Fabrication d'encens apaisant.</RimScent_Make_SoothingIncense.jobString>
+  <RimScent_Make_AcridIncense.label>fabriquer de l'encens âcre</RimScent_Make_AcridIncense.label>
+  <RimScent_Make_AcridIncense.description>Fabriquer de l'encens âcre à partir de bois et d'ingrédients qui sentent mauvais.</RimScent_Make_AcridIncense.description>
+  <RimScent_Make_AcridIncense.jobString>Fabrication d'encens âcre.</RimScent_Make_AcridIncense.jobString>
+
+</LanguageData>
