@@ -46,6 +46,7 @@ No save data. Requires RimScent, RimScent Extended and the Incense Expansion.</d
 		<li>
 			<packageId>nelim.rimscent.extended</packageId>
 			<displayName>RimScent Extended</displayName>
+			<downloadUrl>https://github.com/vbardales/Rimworld-RimScent-Extended</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
