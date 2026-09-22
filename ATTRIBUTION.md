@@ -34,4 +34,4 @@ than requiring a crop this mod does not add.
 
 ## This mod
 
-MIT, © nelim. Defs, patches, research, balance values and translations are original work.
+MIT, © Nelim. Defs, patches, research, balance values and translations are original work.
