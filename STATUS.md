@@ -30,9 +30,11 @@ updated:      2026-09-22, evidence-based audit
 ## Audit — 2026-09-22
 
 This checkout is now an autonomous Git repository on `main` (`detached: yes`), created from the
-audited state without a subtree. Its configured `origin` is the `rimscent-incense` GitHub remote.
-The first commit is local only until it is explicitly authorized and successfully pushed, so the
-`dansMonoRepo → horsMonoRepo` gate remains pending.
+audited state without a subtree. Its `origin` is
+`https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion.git`; the two
+initial commits were rebased on the existing remote history and pushed without force on
+2026-09-22. The `dansMonoRepo → horsMonoRepo` gate nevertheless remains pending because the
+required initial documentation and public-silent markings listed below are still defective.
 
 Static checks were run against RimWorld 1.6, RimScent, Incense Expansion, and the local
 RimScent Extended dependency:
