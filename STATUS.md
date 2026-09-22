@@ -16,8 +16,9 @@ showcase:     defective
 tested_on:
 workshop:
 remaining:
-  - defect: Preview.png advertises gameplay values that disagree with the delivered defs.
-  - unverified: functional scenarios and automated-test results required for the later preTest/done gates have not been written.
+  - defect: Preview.png advertises gameplay values that disagree with the delivered defs; two non-destructive image-edit attempts failed with a network error.
+  - unverified: the minimal Pickle pass is written but has not been executed in English or French.
+  - unverified: in-game research, construction, aroma effects, expiry, persistence, and translated presentation have not been executed.
   - unverified: game load, dependency integration, effects, French/English display, and save behavior have never been run.
 session:      audit:      2026-09-22, static evidence only
 updated:      2026-09-22, evidence-based audit
@@ -45,6 +46,7 @@ RimScent Extended dependency:
 - `Check-ConfigErrors.ps1` checked 38/38 defs with 26 rules and found no config error;
 - `Check-DefInjected.ps1` checked 89 French DefInjected keys with 0 errors, including the
   declared dependencies. English is supplied by the shipped Def values.
+- `Tests/Test-Xml.ps1` passed: 17 XML files, six aromas, and 89 French DefInjected entries.
 
 `settings_audit: not_applicable` is justified statically: this is XML-only (no source project or
 assembly), contains no settings or MainButtons definition, and has no route that could create a
@@ -63,5 +65,9 @@ English About description ends with the required GitHub source-code link. `CHANG
 the initial 0.1.0 release.
 
 No RimWorld process or Pickle run was launched. Consequently, loading, integration behavior,
-effects, persistence, and both language displays remain unverified. No source/test project,
-`TEST_SCENARIOS.md`, or `Tests/` is present, so the later preTest/done gates are not met.
+effects, persistence, and both language displays remain unverified. There is no production source
+project; the later gates remain blocked by the defective Preview and missing runtime evidence.
+
+The offline XML contract, `TEST_SCENARIOS.md`, and a development-only minimal Pickle companion
+now exist. The contract test passed locally; the Pickle feature is deliberately not counted as
+executed until an owned WSL run produces a terminal report in both English and French.
