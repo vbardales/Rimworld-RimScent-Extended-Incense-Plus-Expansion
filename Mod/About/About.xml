@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>RimScent Extended: Incense Plus Expansion</name>
+	<name>RimScent Extended: Incense Plus Expansion (unofficial)</name>
 	<author>Nelim</author>
 	<packageId>nelim.rimscent.extended.incenseplus</packageId>
-	<description>Six incenses whose effects reach past the nose.
+	<description>UNOFFICIAL. This mod is published without the original author's explicit consent.
+If the original author contacts me to request its removal, I undertake to take it down promptly.
+
+Six incenses whose effects reach past the nose.
 
 RimScent's Incense Expansion gives you two sticks: one that lifts the mood a little, one that lowers it. This adds six more, each with a real effect on the body, in the spirit of Rimcense: Neolithic Soothe — which never left 1.4.
 
@@ -27,7 +30,9 @@ It also drops the two smithies from the original incense recipes, which had no b
 
 Ships in English with a French translation injected on top — including the Incense Expansion itself, which had no Languages folder at all. Works in any language.
 
-No save data. Requires RimScent, RimScent Extended and the Incense Expansion.</description>
+No save data. Requires RimScent, RimScent Extended and the Incense Expansion.
+
+[url=https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion]Source code on GitHub[/url]</description>
 	<modVersion>0.1.0</modVersion>
 	<supportedVersions>
 		<li>1.6</li>

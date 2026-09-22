@@ -1,4 +1,7 @@
-# RimScent Extended: Incense Plus Expansion
+# RimScent Extended: Incense Plus Expansion (unofficial)
+
+UNOFFICIAL. This mod is published without the original author's explicit consent.
+If the original author contacts me to request its removal, I undertake to take it down promptly.
 
 Six incenses whose effects reach past the nose, for RimWorld 1.6.
 
@@ -78,3 +81,5 @@ No save data is added: it can be added to or removed from an ongoing game.
 ## Licence
 
 MIT — see [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md).
+
+Source code: [GitHub](https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion).
