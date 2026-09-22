@@ -7,7 +7,7 @@ mod:          RimScent Extended: Incense Plus Expansion
 packageId:    nelim.rimscent.extended.incenseplus
 repo:         Rimworld-RimScent-Extended-Incense-Plus-Expansion
 visibility:   public
-detached:     no
+detached:     yes
 stage:        dansMonoRepo
 licence:      silent
 licence_at:   the targeted mod declares nothing: nothing was taken from it
@@ -29,9 +29,10 @@ updated:      2026-09-22, evidence-based audit
 
 ## Audit — 2026-09-22
 
-This checkout remains inside the `rimworld` monorepo (`detached: no`), so its first unmet
-workflow gate is `dansMonoRepo → horsMonoRepo`. The configured `rimscent-incense` GitHub remote
-exists, but it does not make this nested directory an autonomous repository.
+This checkout is now an autonomous Git repository on `main` (`detached: yes`), created from the
+audited state without a subtree. Its configured `origin` is the `rimscent-incense` GitHub remote.
+The first commit is local only until it is explicitly authorized and successfully pushed, so the
+`dansMonoRepo → horsMonoRepo` gate remains pending.
 
 Static checks were run against RimWorld 1.6, RimScent, Incense Expansion, and the local
 RimScent Extended dependency:
