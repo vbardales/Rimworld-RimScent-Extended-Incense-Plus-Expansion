@@ -14,9 +14,8 @@ licence_at:   the targeted mod declares nothing: nothing was taken from it
 dependencies: declared
 showcase:     defective
 tested_on:
-workshop:     private prepublication 0.1.0 (owner-reported; ID pending import)
+workshop:
 remaining:
-  - unverified: owner reports the private 0.1.0 Workshop prepublication, but Mod/About/PublishedFileId.txt is not present in this checkout and its identifier cannot yet be audited or committed.
   - defect: Preview.png advertises gameplay values that disagree with the delivered defs; two non-destructive image-edit attempts failed with a network error.
   - unverified: the minimal Pickle pass is written but has not been executed in English or French.
   - unverified: in-game research, construction, aroma effects, expiry, persistence, and translated presentation have not been executed.
@@ -75,10 +74,9 @@ executed until an owned WSL run produces a terminal report in both English and F
 
 ## Protocol follow-up — 2026-09-26
 
-The owner reports that a private Workshop 0.1.0 prepublication has created the item.  The required
-`Mod/About/PublishedFileId.txt` was not present in this checkout during this audit, so it remains
-unverified and cannot yet be committed.  This act does not advance `stage`: the independently
-established Preview defect and the unexecuted runtime checks still keep the stage at `ModIcon générée`.
+No Workshop item has been prepublished and no `Mod/About/PublishedFileId.txt` is expected in this
+checkout. The independently established Preview defect and the unexecuted runtime checks keep the
+stage at `ModIcon générée`.
 
 No tracked or on-disk `.dds` asset and no `Tests/Pickle/Evidence/` directory were found.  `.dds`
 intermediates and runtime evidence are now ignored; `TESTING.md` defines the small on-disk evidence
