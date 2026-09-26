@@ -1,0 +1,8 @@
+# Runtime evidence stays on disk: captures and game logs are not source files.
+Tests/Pickle/Evidence/
+
+# Texture intermediates are never a distributed source asset here.
+*.dds
+
+# Local web-research cache.
+.firecrawl/

@@ -28,6 +28,10 @@ this expansion started. **No file, def, texture or value from Rimcense is reused
 declares no licence, so nothing of it could be taken even if we wanted to: not its defs, not
 its plants (sandalwood, frankincense, tragacanth), not its textures.
 
+On 2026-09-26, the Workshop page and a public-source search did not identify an upstream Git
+repository for Rimcense. There is consequently no source repository to base work on or to receive
+a pull request; this is a current search result, not a claim that no private repository exists.
+
 Every ingredient here is vanilla. Sandalwood and frankincense are preparations of wood and
 herbal medicine, not new species — which is also why they are craftable on day one rather
 than requiring a crop this mod does not add.

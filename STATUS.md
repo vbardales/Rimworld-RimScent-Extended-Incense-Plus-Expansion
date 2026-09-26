@@ -16,12 +16,13 @@ showcase:     defective
 tested_on:
 workshop:
 remaining:
+  - unverified: owner reports the private 0.1.0 Workshop prepublication, but Mod/About/PublishedFileId.txt is not present in this checkout and its identifier cannot yet be audited or committed.
   - defect: Preview.png advertises gameplay values that disagree with the delivered defs; two non-destructive image-edit attempts failed with a network error.
   - unverified: the minimal Pickle pass is written but has not been executed in English or French.
   - unverified: in-game research, construction, aroma effects, expiry, persistence, and translated presentation have not been executed.
   - unverified: game load, dependency integration, effects, French/English display, and save behavior have never been run.
 session:      audit:      2026-09-22, static evidence only
-updated:      2026-09-22, evidence-based audit
+updated:      2026-09-26, protocol reread and publication/evidence follow-up
 ---
 
 # RimScent Extended: Incense Plus Expansion — status
@@ -71,3 +72,14 @@ project; the later gates remain blocked by the defective Preview and missing run
 The offline XML contract, `TEST_SCENARIOS.md`, and a development-only minimal Pickle companion
 now exist. The contract test passed locally; the Pickle feature is deliberately not counted as
 executed until an owned WSL run produces a terminal report in both English and French.
+
+## Protocol follow-up — 2026-09-26
+
+The owner reports that a private Workshop 0.1.0 prepublication has created the item.  The required
+`Mod/About/PublishedFileId.txt` was not present in this checkout during this audit, so it remains
+unverified and cannot yet be committed.  This act does not advance `stage`: the independently
+established Preview defect and the unexecuted runtime checks still keep the stage at `ModIcon générée`.
+
+No tracked or on-disk `.dds` asset and no `Tests/Pickle/Evidence/` directory were found.  `.dds`
+intermediates and runtime evidence are now ignored; `TESTING.md` defines the small on-disk evidence
+bundle and the versioned run summary to retain after a real dispatcher-owned pass.

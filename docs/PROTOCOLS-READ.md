@@ -20,12 +20,12 @@ recorded below.
 | `../PickleTools/Headless/README.md` | `488A0BB2CA831792C3B6F284E6457DD6FC47BA6D0B2CF24B7E36EC6075DBB54B` | WSL-only execution, staging, evidence and queue rules. |
 | `../Rimworld-Ticket-Dispatcher/docs/WELCOME.md` | `135D16D524E875FAD926588DF27920B00EEFB9A360E07C95361061072707FD21` | One request per language/pass and immutable tested tree until `RUN_DONE`. |
 | `../Rimworld-Ticket-Dispatcher/docs/SUBMIT.md` | `90B7385B1BDA5B88C20E053F2D68C5B07FF4E07EB885C53137CBAFA73E6D8D80` | Required submission parameters, evidence path and result interpretation. |
-| `STATUS.md` | `AE1C68BA5DCE75BA5407F0A62B49B9DB276487CBFD6C676518F0457BC40E624A` | Existing audit evidence and the Preview/runtime blockers. |
+| `STATUS.md` | `BE90CAABAE88F3126D1B3A11C19DE1461AB9CD40934A28B098487E3618364B6E` | Existing audit evidence, the Preview/runtime blockers and the missing imported Workshop ID. |
 | `README.md` | `AEDF88A2F15A6795184FB2826BDFEEC71324774446653109B32D7164F5E20EE9` | Claimed features, dependencies and user-facing values. |
-| `CHANGELOG.md` | `C2E99834CD9F677D40D794C4BEA2A38BEB7CF34C642BDD912E2A7BF6991D7C9B` | Initial release scope. |
-| `ATTRIBUTION.md` | `99FDE39D3F0B2431D0493A3E164D0D6E8FC9DE0A9D68B729BE666F98C27C26A6` | Rights classification and upstream credit. |
+| `CHANGELOG.md` | `7D7C19E81267EEA85B2286B9909752C6F36A8FA5B910116290C49179E0D2AA37` | Initial release scope and owner-reported 0.1.0 prepublication. |
+| `ATTRIBUTION.md` | `F5D9209BB6B326E4E3F174B14C6161399030C6E65BECDCD61F2E35BC4DC166C4` | Rights classification, upstream credit and current public-source search result. |
 | `LICENSE` | `B054D95F9B2C1B9302B895C37C3E5EACEA13EDDAC7278D307C3CAE267F227892` | MIT text and distribution claim. |
-| `TESTING.md` | `DB82CDBDD4DF8FFB3FA6C3118A9A913279323BEA55C40F1998EBACA305564AC2` | Offline-vs-runtime test boundary. |
+| `TESTING.md` | `921A2202A9C792E797B7EA40C9EF969C81B4BD036608CDE32F6B147E2B4E6F2A` | Offline-vs-runtime test boundary and evidence retention rule. |
 | `Tests/Pickle/` | `F4C6CBF57F488282B9DFB15E2F5A6EAAF932B186A1BBFFD868BEADF70CCBA9F3` (README), `F2F60127F5EE42C98341AE5CF341045A05E8271226110A8C7697D85F6CA7A764` (map), `2BE27AE7D5DEF486D02D1CF977EEF70761309217DDA635C9D2DC81CA119705B5` (test About), `8A5572447DF7443FEC96647A23D59CBE65E6C7F2B76A1714CC7876721FFFDBE5` (feature) | Minimal runtime suite; its README was corrected to submit dispatcher tickets rather than call the launcher directly. |
 | `Mod/About/About.xml` | `DD51D0E38A4F2F106B13A95544906EA72DE52942ABB42884E6E952F1A9B82981` | Delivered metadata, dependencies, public-silent disclaimer and description link. |
 
