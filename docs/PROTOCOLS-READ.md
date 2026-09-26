@@ -20,7 +20,7 @@ recorded below.
 | `../PickleTools/Headless/README.md` | `488A0BB2CA831792C3B6F284E6457DD6FC47BA6D0B2CF24B7E36EC6075DBB54B` | WSL-only execution, staging, evidence and queue rules. |
 | `../Rimworld-Ticket-Dispatcher/docs/WELCOME.md` | `135D16D524E875FAD926588DF27920B00EEFB9A360E07C95361061072707FD21` | One request per language/pass and immutable tested tree until `RUN_DONE`. |
 | `../Rimworld-Ticket-Dispatcher/docs/SUBMIT.md` | `90B7385B1BDA5B88C20E053F2D68C5B07FF4E07EB885C53137CBAFA73E6D8D80` | Required submission parameters, evidence path and result interpretation. |
-| `STATUS.md` | `BE90CAABAE88F3126D1B3A11C19DE1461AB9CD40934A28B098487E3618364B6E` | Existing audit evidence, the Preview/runtime blockers and the missing imported Workshop ID. |
+| `STATUS.md` | `4015AA16812746C65B5ADD1D7E326219787D3EC9E05677F42CD722C54EEC4838` | Existing audit evidence, the Preview/runtime blockers and the missing imported private Workshop ID. |
 | `README.md` | `AEDF88A2F15A6795184FB2826BDFEEC71324774446653109B32D7164F5E20EE9` | Claimed features, dependencies and user-facing values. |
 | `CHANGELOG.md` | `7D7C19E81267EEA85B2286B9909752C6F36A8FA5B910116290C49179E0D2AA37` | Initial release scope and owner-reported 0.1.0 prepublication. |
 | `ATTRIBUTION.md` | `F5D9209BB6B326E4E3F174B14C6161399030C6E65BECDCD61F2E35BC4DC166C4` | Rights classification, upstream credit and current public-source search result. |

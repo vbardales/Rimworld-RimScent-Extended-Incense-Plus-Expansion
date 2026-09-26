@@ -14,7 +14,7 @@ licence_at:   the targeted mod declares nothing: nothing was taken from it
 dependencies: declared
 showcase:     defective
 tested_on:
-workshop:
+workshop:     private prepublication 0.1.0 (owner-reported; ID pending import)
 remaining:
   - unverified: owner reports the private 0.1.0 Workshop prepublication, but Mod/About/PublishedFileId.txt is not present in this checkout and its identifier cannot yet be audited or committed.
   - defect: Preview.png advertises gameplay values that disagree with the delivered defs; two non-destructive image-edit attempts failed with a network error.
