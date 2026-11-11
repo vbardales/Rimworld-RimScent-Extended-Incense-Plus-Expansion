@@ -1,0 +1,22 @@
+{
+  "panel": {
+    "title": "RimScent Extended: Incense Plus Expansion (unofficial)",
+    "titleParts": [
+      { "text": "RimScent" },
+      { "text": "Extended:", "font": "ui", "scale": 0.56 },
+      { "text": "Incense Plus" },
+      { "text": "Expansion (unofficial)", "suffix": true }
+    ],
+    "description": "Six aromas with practical effects. Light the one your colony needs."
+  },
+  "background": { "file": "Preview-source.png" },
+  "icon": { "file": "ModIcon-source.png" },
+  "echo": { "file": "echo.png" },
+  "palette": {
+    "veil": "#35261D",
+    "inkPrimary": "#F6EDE2",
+    "inkSecondary": "#DDB06B",
+    "accent": "#E0A13F",
+    "badgeInk": "#17110D"
+  }
+}
