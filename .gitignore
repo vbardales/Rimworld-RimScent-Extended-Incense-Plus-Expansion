@@ -6,3 +6,6 @@ Tests/Pickle/Evidence/
 
 # Local web-research cache.
 .firecrawl/
+
+# Render intermediates.
+Art/.render/

@@ -14,13 +14,11 @@ localization: complete
 translation_en: complete
 translation_fr: unchecked
 dependencies: declared
-workshop: none
+workshop: 3811308373 (private item from the 0.1.0 prepublication; Steam creates every item private)
 published: no
 tested_on: never
 remaining:
-  - "2026-11-11: defect: 1.f .gitattributes missing"
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
-  - "2026-11-11: defect: Mod/About/PublishedFileId.txt (3811308373) is untracked while workshop is none; reconcile the record"
   - "2026-11-11: unverified: Preview.png regenerated and committed in 023db5f; its values against the delivered defs not rechecked (earlier defect: values disagreed with the defs)"
   - "2026-11-11: unverified: the minimal Pickle pass is written but not executed in English or French"
   - "2026-11-11: unverified: game load, dependency integration, research, construction, aroma effects, expiry, persistence, and French/English display never run"

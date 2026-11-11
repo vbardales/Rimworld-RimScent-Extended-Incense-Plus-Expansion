@@ -1,0 +1,5 @@
+# Normalise line endings in the repository, letting each machine keep its own.
+* text=auto
+
+*.png binary
+*.dll binary
