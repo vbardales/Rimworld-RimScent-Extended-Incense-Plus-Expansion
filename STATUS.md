@@ -5,7 +5,7 @@ repo: Rimworld-RimScent-Extended-Incense-Plus-Expansion
 remote: https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion.git
 visibility: public
 detached: yes
-workflow_stage: setupRepo
+workflow_stage: setupRepo      # the work to do (AUDIT.md chain)
 licence: silent
 licence_at: "2026-09-22: the targeted mod declares nothing; nothing was taken from it (Rimcense: Neolithic Soothe is a 1.4 unlicensed inspiration)"
 upstream_mod_remotes: N/A
@@ -22,8 +22,8 @@ remaining:
   - "2026-11-11: unverified: Preview.png regenerated and committed in 023db5f; its values against the delivered defs not rechecked (earlier defect: values disagreed with the defs)"
   - "2026-11-11: unverified: the minimal Pickle pass is written but not executed in English or French"
   - "2026-11-11: unverified: game load, dependency integration, research, construction, aroma effects, expiry, persistence, and French/English display never run"
-protocols_read_sha: 45357975862be47b344cc129a47910946cba3ac9
 updated: 2026-11-11
+protocols_read_sha: 45357975862be47b344cc129a47910946cba3ac9
 ---
 
 # RimScent Extended: Incense Plus Expansion — status
