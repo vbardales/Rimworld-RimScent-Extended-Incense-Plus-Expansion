@@ -28,7 +28,7 @@ remaining:
   - "2026-11-11: unverified: the minimal Pickle pass is written but not executed in English or French"
   - "2026-11-11: unverified: game load, dependency integration, research, construction, aroma effects, expiry, persistence, and French/English display never run"
 updated: 2026-11-11
-protocols_read_sha: 7692726a64c9f7bef765e2952510d99117e468bc
+protocols_read_sha: 0a50ed1cd3ec92aca5af47e254c5194fe4ce0452
 ---
 
 # RimScent Extended: Incense Plus Expansion — status
