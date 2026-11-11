@@ -1,0 +1,14 @@
+{
+  "templateStamp": "ed4669c0a5bf",
+  "workshopId": "3811308373",
+  "packageId": "nelim.rimscent.extended.incenseplus",
+  "releaseTitle": "RimScent Extended: Incense Plus Expansion {version}",
+  "requirePaths": [
+    "Defs",
+    "Patches",
+    "Languages"
+  ],
+  "forbidPaths": [],
+  "previewFile": "About/Preview.png",
+  "galleryDir": "Art/Gallery"
+}
