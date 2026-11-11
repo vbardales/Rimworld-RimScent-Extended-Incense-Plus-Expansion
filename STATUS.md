@@ -5,7 +5,7 @@ repo: Rimworld-RimScent-Extended-Incense-Plus-Expansion
 remote: https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion.git
 visibility: public
 detached: yes
-workflow_stage: declareDependencies[1.0.0]
+workflow_stage: localize[1.0.0]
 licence: silent
 licence_at: "2026-09-22: the targeted mod declares nothing; nothing was taken from it (Rimcense: Neolithic Soothe is a 1.4 unlicensed inspiration)"
 upstream_mod_remotes: N/A
@@ -25,7 +25,7 @@ remaining:
   - "2026-11-11: unverified: the minimal Pickle pass is written but not executed in English or French"
   - "2026-11-11: unverified: game load, dependency integration, research, construction, aroma effects, expiry, persistence, and French/English display never run"
 updated: 2026-11-11
-protocols_read_sha: 8784178aba974114ac7dff3945d9d1353570263a
+protocols_read_sha: 2bb8c9b3388a3dbbd4577d1e9b97e9e555430295
 ---
 
 # RimScent Extended: Incense Plus Expansion — status
@@ -98,3 +98,12 @@ Optional integrations: none. `Check-OptionalCompat.ps1`: 0 patched target(s), 0 
 `MayRequire`, `IfModActive` or `PatchOperationFindMod` in `Mod/`. No `LoadFolders.xml` (single root,
 `supportedVersions` 1.6). DLC: none referenced. Animal integrations (4.f): not applicable, no animal added.
 Required items on the Steam page: `n/a, not released yet` (owner decision 2026-11-10, AUDIT.md 4.g).
+
+## Settings audit: 2026-11-11, revision 837794f
+
+`settings_audit: not_applicable`. Inventory: the mod is XML only (no `Source/`, no `Assemblies/`), declares
+no `ModSettings`, no `MainButtonDef` and no settings page; the six aromas, burners, recipes, thoughts and
+research have fixed values in the Defs. Decision: no setting is useful, an option would only duplicate a Def
+value. Verified in the sources by `grep` for `MainButtonDef|ModSettings|SettingsCategory` over `Mod/`: no hit,
+so there is no empty page and no shortcut. Access route, usage review and settings tests: not applicable.
+Nothing here is an in-game claim; the in-game check that no settings entry appears stays for `playTests`.
