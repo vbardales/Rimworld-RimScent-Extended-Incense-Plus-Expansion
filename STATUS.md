@@ -19,6 +19,7 @@ workshop: 3811308373 (private item from the 0.1.0 prepublication; Steam creates 
 published: no
 tested_on: never
 remaining:
+  - "2026-11-11: unverified: 6.g French review by Virginie not done (translation_fr unchecked); raw keys, fallback text and clipping in game"
   - "2026-11-11: defect: Preview-source.png background still shows Mental break threshold -20% while the def says -0.06; echo and 1.6 ribbon rendered as is"
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
   - "2026-11-11: unverified: Preview.png regenerated and committed in 023db5f; its values against the delivered defs not rechecked (earlier defect: values disagreed with the defs)"
@@ -107,3 +108,13 @@ research have fixed values in the Defs. Decision: no setting is useful, an optio
 value. Verified in the sources by `grep` for `MainButtonDef|ModSettings|SettingsCategory` over `Mod/`: no hit,
 so there is no empty page and no shortcut. Access route, usage review and settings tests: not applicable.
 Nothing here is an in-game claim; the in-game check that no settings entry appears stays for `playTests`.
+
+## Translation audit: 2026-11-11, revision 05f1171
+
+English is the Def values shipped in `Mod/Defs/`. French lives in `Mod/Languages/French/DefInjected/` (9 files,
+89 keys, covering this mod and the Incense Expansion it requires). `Check-Translations.ps1`: PASS, 71 source texts.
+`Check-DefInjected.ps1` with the three dependencies as targets: 89 keys, 0 errors. Every French string was read in
+full: no `tu`, `vous` or `nous` addressed to the player, no pawn agreement needed, so no gender choice (6.e not
+applicable). Doubtful texts: none flagged; `smokeleaf` and `psychoïde` stay untranslated on purpose (names of
+base-game items). `TRANSLATION_REVIEW.md` regenerated. Not done: Virginie's review of the French (6.g), then
+`translation_fr` may become `complete`.
