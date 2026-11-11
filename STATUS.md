@@ -19,7 +19,7 @@ workshop: 3811308373 (private item from the 0.1.0 prepublication; Steam creates 
 published: no
 tested_on: never
 remaining:
-  - "2026-11-11: unverified: 8.c minimal Pickle pass (English and French) not filed; no tested_on yet"
+  - "2026-11-11: unverified: 8.c minimal Pickle pass filed on a7b6e77: English 20261111-183129-114-75db, French 20261111-183132-313-9cc0 (evidence Tests/Pickle/Inbox/minimal-load-en and -fr); read summary.json and junit.xml at RUN_DONE, then tested_on"
   - "2026-11-11: unverified: 8.g functional scenarios of TEST_SCENARIOS.md not played"
   - "2026-11-11: unverified: 1.7 pass not started (tested_1_7 absent)"
   - "2026-11-11: defect: Preview-source.png background still shows Mental break threshold -20% while the def says -0.06; echo and 1.6 ribbon rendered as is"
