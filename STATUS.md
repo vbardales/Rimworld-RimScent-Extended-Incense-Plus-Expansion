@@ -5,7 +5,7 @@ repo: Rimworld-RimScent-Extended-Incense-Plus-Expansion
 remote: https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion.git
 visibility: public
 detached: yes
-workflow_stage: setupRepo      # the work to do (AUDIT.md chain)
+workflow_stage: makeSources
 licence: silent
 licence_at: "2026-09-22: the targeted mod declares nothing; nothing was taken from it (Rimcense: Neolithic Soothe is a 1.4 unlicensed inspiration)"
 upstream_mod_remotes: N/A
