@@ -5,10 +5,10 @@
 Run from the repository root:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File Tests/Test-Xml.ps1
+powershell -ExecutionPolicy Bypass -File Tests/Rule-OwnValues.ps1
 ```
 
-The test parses every shipped XML file; verifies the inventory and mood values of the six owned thoughts; checks all six incense/item/burner/recipe/hediff inventories; verifies hard dependencies, public-silent metadata, the final GitHub link, French DefInjected uniqueness and coverage count, and delivered image dimensions and size limits.
+The own-values rule verifies the inventory and mood values of the six owned thoughts; checks all six incense/item/burner/recipe/hediff inventories; verifies hard dependencies, public-silent metadata, the final GitHub link, French DefInjected uniqueness and coverage count, and delivered image dimensions and size limits.
 
 The shared 1.6 validators complement this contract against the three hard dependencies. See `STATUS.md` for the checked dependency paths and assemblies.
 
