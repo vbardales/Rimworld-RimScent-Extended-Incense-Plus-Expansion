@@ -5,28 +5,27 @@ repo: Rimworld-RimScent-Extended-Incense-Plus-Expansion
 remote: https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion.git
 visibility: public
 detached: yes
-workflow_stage: localize[1.0.0]
+workflow_stage: writeTests[1.0.0]
 licence: silent
 licence_at: "2026-09-22: the targeted mod declares nothing; nothing was taken from it (Rimcense: Neolithic Soothe is a 1.4 unlicensed inspiration)"
 upstream_mod_remotes: N/A
 settings_audit: not_applicable
 localization: complete
 translation_en: complete
-translation_fr: unchecked
+translation_fr: complete
 dependencies: declared
 workshop_required_items: n/a, not released yet
 workshop: 3811308373 (private item from the 0.1.0 prepublication; Steam creates every item private)
 published: no
 tested_on: never
 remaining:
-  - "2026-11-11: unverified: 6.g French review by Virginie not done (translation_fr unchecked); raw keys, fallback text and clipping in game"
   - "2026-11-11: defect: Preview-source.png background still shows Mental break threshold -20% while the def says -0.06; echo and 1.6 ribbon rendered as is"
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
   - "2026-11-11: unverified: Preview.png regenerated and committed in 023db5f; its values against the delivered defs not rechecked (earlier defect: values disagreed with the defs)"
   - "2026-11-11: unverified: the minimal Pickle pass is written but not executed in English or French"
   - "2026-11-11: unverified: game load, dependency integration, research, construction, aroma effects, expiry, persistence, and French/English display never run"
 updated: 2026-11-11
-protocols_read_sha: 2bb8c9b3388a3dbbd4577d1e9b97e9e555430295
+protocols_read_sha: db692bebc9ba2f8212ad6d1086a6b6f7f3d80cb1
 ---
 
 # RimScent Extended: Incense Plus Expansion — status
@@ -118,3 +117,7 @@ full: no `tu`, `vous` or `nous` addressed to the player, no pawn agreement neede
 applicable). Doubtful texts: none flagged; `smokeleaf` and `psychoïde` stay untranslated on purpose (names of
 base-game items). `TRANSLATION_REVIEW.md` regenerated. Not done: Virginie's review of the French (6.g), then
 `translation_fr` may become `complete`.
+
+Virginie's review of the French: 2026-11-11, revision df49414, validated without corrections after four ChatGPT
+passes (seven wording fixes applied: aromatic incense research text and label, three recipe pronouns, two toxin
+wordings). `translation_fr` is `complete`.
