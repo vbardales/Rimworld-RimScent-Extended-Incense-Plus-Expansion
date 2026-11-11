@@ -2,13 +2,14 @@
 settings_audit: not_applicable
 localization: complete
 translation_en: complete
-translation_fr: complete
+translation_fr: unchecked
 mod:          RimScent Extended: Incense Plus Expansion
 packageId:    nelim.rimscent.extended.incenseplus
 repo:         Rimworld-RimScent-Extended-Incense-Plus-Expansion
 visibility:   public
 detached:     yes
-stage:        ModIcon générée
+remote:       https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion.git
+workflow_stage: setupRepo
 licence:      silent
 licence_at:   the targeted mod declares nothing: nothing was taken from it
 dependencies: declared
@@ -16,12 +17,19 @@ showcase:     defective
 tested_on:
 workshop:
 remaining:
+  - 1.h STATUS.md not template shaped: rebuild from templates/STATUS.template.md (upstream_mod_remotes, published, tested_on, tested_1_7 missing).
+  - 1.a duplicate Workshop search not recorded: needs Search-Workshop.sh (owner approval).
+  - 1.f .gitattributes missing.
+  - 1.j Check-Status ERROR workflow_stage must reach zero after 1.h.
+  - conflict: Mod/About/PublishedFileId.txt (3811308373) is untracked while the body says no Workshop item was prepublished; reconcile the record.
+  - unverified: Preview.png regenerated and committed 2026-11-11 (023db5f); its values against the delivered defs not rechecked.
   - defect: Preview.png advertises gameplay values that disagree with the delivered defs; two non-destructive image-edit attempts failed with a network error.
   - unverified: the minimal Pickle pass is written but has not been executed in English or French.
   - unverified: in-game research, construction, aroma effects, expiry, persistence, and translated presentation have not been executed.
   - unverified: game load, dependency integration, effects, French/English display, and save behavior have never been run.
 session:      audit:      2026-09-22, static evidence only
-updated:      2026-09-26, protocol reread and publication/evidence follow-up
+updated:      2026-11-11, audit replay: first open sub-step 1.h (setupRepo)
+protocols_read_sha: deffde3a2305b9b666185e93c7c34033084756fe
 ---
 
 # RimScent Extended: Incense Plus Expansion — status
