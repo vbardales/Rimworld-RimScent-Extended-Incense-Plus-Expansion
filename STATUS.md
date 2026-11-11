@@ -18,7 +18,6 @@ workshop: none
 published: no
 tested_on: never
 remaining:
-  - "2026-11-11: unverified: 1.a duplicate Workshop search not recorded (needs Search-Workshop.sh, owner approval)"
   - "2026-11-11: defect: 1.f .gitattributes missing"
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
   - "2026-11-11: defect: Mod/About/PublishedFileId.txt (3811308373) is untracked while workshop is none; reconcile the record"
