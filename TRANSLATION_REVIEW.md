@@ -37,19 +37,19 @@ Languages: French (89 keys, 0 missing against English). English is the source si
 | `RimScentExtended_Make_Sandalwood.description` | Press heartwood shavings with herbal resin into slow-burning sticks. | Press heartwood shavings with herbal resin into slow-burning sticks. | Presser des copeaux de bois de cœur avec de la résine d'herbe médicinale pour en faire des bâtonnets à combustion lente. |  |
 | `RimScentExtended_Make_Sandalwood.jobString` | Crafting sandalwood incense. | Crafting sandalwood incense. | Fabrication d'encens de santal. |  |
 | `RimScentExtended_Make_Frankincense.label` | make frankincense | make frankincense | fabriquer de l'encens d'oliban |  |
-| `RimScentExtended_Make_Frankincense.description` | Bind medicinal resin to wood dust and roll it into sticks. | Bind medicinal resin to wood dust and roll it into sticks. | Lier de la résine médicinale à de la sciure de bois et la rouler en bâtonnets. |  |
+| `RimScentExtended_Make_Frankincense.description` | Bind medicinal resin to wood dust and roll it into sticks. | Bind medicinal resin to wood dust and roll it into sticks. | Lier de la résine médicinale à de la sciure de bois et rouler le mélange en bâtonnets. |  |
 | `RimScentExtended_Make_Frankincense.jobString` | Crafting frankincense. | Crafting frankincense. | Fabrication d'encens d'oliban. |  |
 | `RimScentExtended_Make_Psychoid.label` | make psychoid incense | make psychoid incense | fabriquer de l'encens de psychoïde |  |
 | `RimScentExtended_Make_Psychoid.description` | Roll dried psychoid leaf into slow-burning sticks. | Roll dried psychoid leaf into slow-burning sticks. | Rouler des feuilles de psychoïde séchées en bâtonnets à combustion lente. |  |
 | `RimScentExtended_Make_Psychoid.jobString` | Crafting psychoid incense. | Crafting psychoid incense. | Fabrication d'encens de psychoïde. |  |
 | `RimScentExtended_Make_Smokeleaf.label` | make smokeleaf incense | make smokeleaf incense | fabriquer de l'encens de smokeleaf |  |
-| `RimScentExtended_Make_Smokeleaf.description` | Bind smokeleaf trimmings with wood dust and roll them into sticks. | Bind smokeleaf trimmings with wood dust and roll them into sticks. | Lier des chutes de smokeleaf à de la sciure de bois et les rouler en bâtonnets. |  |
+| `RimScentExtended_Make_Smokeleaf.description` | Bind smokeleaf trimmings with wood dust and roll them into sticks. | Bind smokeleaf trimmings with wood dust and roll them into sticks. | Lier des chutes de smokeleaf à de la sciure de bois et rouler le mélange en bâtonnets. |  |
 | `RimScentExtended_Make_Smokeleaf.jobString` | Crafting smokeleaf incense. | Crafting smokeleaf incense. | Fabrication d'encens de smokeleaf. |  |
 | `RimScentExtended_Make_Berry.label` | make berry incense | make berry incense | fabriquer de l'encens de baies |  |
 | `RimScentExtended_Make_Berry.description` | Crush and dry berries, then press them onto sticks. | Crush and dry berries, then press them onto sticks. | Écraser et sécher des baies, puis les presser sur des bâtonnets. |  |
 | `RimScentExtended_Make_Berry.jobString` | Crafting berry incense. | Crafting berry incense. | Fabrication d'encens de baies. |  |
 | `RimScentExtended_Make_Cocoa.label` | make cocoa incense | make cocoa incense | fabriquer de l'encens de cacao |  |
-| `RimScentExtended_Make_Cocoa.description` | Grind cocoa into the binder and roll it into sticks. | Grind cocoa into the binder and roll it into sticks. | Broyer du cacao dans le liant et le rouler en bâtonnets. |  |
+| `RimScentExtended_Make_Cocoa.description` | Grind cocoa into the binder and roll it into sticks. | Grind cocoa into the binder and roll it into sticks. | Broyer du cacao dans le liant et rouler le mélange en bâtonnets. |  |
 | `RimScentExtended_Make_Cocoa.jobString` | Crafting cocoa incense. | Crafting cocoa incense. | Fabrication d'encens de cacao. |  |
 
 ## French/DefInjected/RecipeDef/Incense.xml
@@ -70,7 +70,7 @@ Languages: French (89 keys, 0 missing against English). English is the source si
 | `RimScentExtended_IncenseCrafting.label` | incense crafting | incense crafting | fabrication d'encens |  |
 | `RimScentExtended_IncenseCrafting.description` | Bind fragrant resins, herbs and wood dust into slow-burning sticks, and shape the burners that hold them. | Bind fragrant resins, herbs and wood dust into slow-burning sticks, and shape the burners that hold them. | Lier des résines odorantes, des herbes et de la sciure de bois en bâtonnets à combustion lente, et façonner les brûleurs qui les accueillent. |  |
 | `RimScentExtended_AromaticIncense.label` | aromatic incense | aromatic incense | encens aromatiques |  |
-| `RimScentExtended_AromaticIncense.description` | Isolate what a burning stick actually carries into the lungs, and blend six aromas whose effects reach past the nose. | Isolate what a burning stick actually carries into the lungs, and blend six aromas whose effects reach past the nose. | Comprendre ce qu'un bâtonnet qui brûle transporte réellement jusqu'aux poumons, et composer six arômes dont les effets dépassent le nez. |  |
+| `RimScentExtended_AromaticIncense.description` | Isolate what a burning stick actually carries into the lungs, and blend six aromas whose effects reach past the nose. | Isolate what a burning stick actually carries into the lungs, and blend six aromas whose effects reach past the nose. | Isoler ce qu'un bâtonnet en combustion transporte réellement jusque dans les poumons, et composer six arômes dont les effets dépassent le nez. |  |
 
 ## French/DefInjected/ThingDef/Aromas.xml
 
