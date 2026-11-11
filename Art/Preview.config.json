@@ -10,6 +10,7 @@
     "description": "Six aromas with practical effects. Light the one your colony needs."
   },
   "background": { "file": "Preview-source.png" },
+  "modIconSource": "ModIcon-source.png",
   "icon": { "file": "ModIcon-source.png" },
   "echo": { "file": "echo.png" },
   "palette": {
