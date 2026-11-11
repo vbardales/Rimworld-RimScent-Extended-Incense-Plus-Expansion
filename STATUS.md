@@ -19,6 +19,7 @@ workshop: 3811308373 (private item from the 0.1.0 prepublication; Steam creates 
 published: no
 tested_on: never
 remaining:
+  - "2026-11-11: defect: 7.b Test-Xml.ps1 not validated in LOCAL_SCRIPTS.md (CUT): convert to Rule-OwnValues.ps1 plus generated Test-Mod.ps1 via CI/CD, then Audit validates"
   - "2026-11-11: defect: Preview-source.png background still shows Mental break threshold -20% while the def says -0.06; echo and 1.6 ribbon rendered as is"
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
   - "2026-11-11: unverified: Preview.png regenerated and committed in 023db5f; its values against the delivered defs not rechecked (earlier defect: values disagreed with the defs)"
@@ -121,3 +122,12 @@ base-game items). `TRANSLATION_REVIEW.md` regenerated. Not done: Virginie's revi
 Virginie's review of the French: 2026-11-11, revision df49414, validated without corrections after four ChatGPT
 passes (seven wording fixes applied: aromatic incense research text and label, three recipe pronouns, two toxin
 wordings). `translation_fr` is `complete`.
+
+## Tests: 2026-11-11, revision 9063442
+
+Offline: `Tests/Test-Xml.ps1` PASS (17 XML files, 6 aromas, 89 French entries), replayed at 9063442; `Check-ModBasics`
+PASS; `Check-Translations` PASS; `Check-DefInjected` 89 keys, 0 errors. No unit-test project: the mod is XML only with no
+assembly (`Run-UnitTests.ps1` n/a), so `Test-Xml.ps1` is the 7.b harness. Its row in `scripts/LOCAL_SCRIPTS.md` is reopened
+(2026-11-04, CUT): it must become `Tests/Rule-OwnValues.ps1` under the generated `Tests/Test-Mod.ps1` (CI/CD session,
+`generate-publish-workflow.sh --regenerate`), then Audit validates. Scenarios: `TEST_SCENARIOS.md` and `TESTING.md`.
+Pickle: `Tests/Pickle/Mod/Pickle/Features/01-minimal-load.feature` and `wsl-deps.sans-facultatifs.map` written, not executed.
