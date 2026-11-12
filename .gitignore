@@ -9,3 +9,6 @@ Tests/Pickle/Evidence/
 
 # Render intermediates.
 Art/.render/
+
+# Steam sends Mod/ as it stands: desktop.ini must never be tracked.
+desktop.ini

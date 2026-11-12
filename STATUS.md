@@ -5,20 +5,21 @@ repo: Rimworld-RimScent-Extended-Incense-Plus-Expansion
 remote: https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion.git
 visibility: public
 detached: yes
-workflow_stage: playTests[1.0.0]
+workflow_stage: localize[1.0.0]
 licence: silent
 licence_at: "2026-09-22: the targeted mod declares nothing; nothing was taken from it (Rimcense: Neolithic Soothe is a 1.4 unlicensed inspiration)"
 upstream_mod_remotes: N/A
 settings_audit: not_applicable
 localization: complete
 translation_en: complete
-translation_fr: complete
+translation_fr: pending_review
 dependencies: declared
 workshop_required_items: n/a, not released yet
 workshop: 3811308373 (private item from the 0.1.0 prepublication; Steam creates every item private)
 published: no
 tested_on: "RimWorld 1.6 (WSL headless Pickle), Mod/ unchanged since a7b6e77; green 01-minimal-load EN 20261111-183129-114-75db (hetzner), FR 20261111-183132-313-9cc0 (azure), 2026-11-11"
 remaining:
+  - "2026-11-12: open 6.g: Virginie French validation of 2026-11-11 rests on ChatGPT reviews run with the wrong page header; re-run /review-translation on the frozen TRANSLATION_REVIEW.md (commit 3d), pages 1..N, then her validation; Docs/review-refusals.md for refused suggestions"
   - "2026-11-12: 8.c minimal Pickle pass green EN and FR (1/1 each, evidence Tests/Pickle/Evidence/minimal-load-en and -fr); stays: 8.g functional scenarios, 1.7 pass"
   - "2026-11-11: unverified: 8.g functional scenarios of TEST_SCENARIOS.md not played"
   - "2026-11-11: unverified: 1.7 pass not started (tested_1_7 absent)"
@@ -26,8 +27,8 @@ remaining:
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
   - "2026-11-11: unverified: Preview.png regenerated and committed in 023db5f; its values against the delivered defs not rechecked (earlier defect: values disagreed with the defs)"
   - "2026-11-11: unverified: game load, dependency integration, research, construction, aroma effects, expiry, persistence, and French/English display never run"
-updated: 2026-11-11
-protocols_read_sha: 9481d090854f082b638e84ad647a202fec7de6d2
+updated: 2026-11-12
+protocols_read_sha: 3bf42db22c742bf62b6e6d0d1e30ff94e6700722
 ---
 
 # RimScent Extended: Incense Plus Expansion: status
