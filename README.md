@@ -29,7 +29,7 @@ the base game gives its own smokeleaf thoughts.
 
 The mood and the effect are two separate things. Standing in the room gives the colonist a
 `ThoughtDef`, which RimScent applies on its own, **and** a `HediffDef` on top of it, which
-RimScent cannot do, hence the dependency on the socle, which provides
+RimScent cannot do, hence the dependency on the foundation mod, which provides
 `ModExtension_ScentHediff`. The hediff carries a `HediffCompProperties_Disappears` timer of
 1500 ticks that the scan pushes back on every pass, so an aroma follows the pawn out of the
 room and fades about 25 seconds later. RimScent's scan interval runs from 60 to 1000 ticks,
@@ -74,7 +74,7 @@ which ships no `Languages` folder at all.
 
 - [RimScent](https://steamcommunity.com/sharedfiles/filedetails/?id=3645569466)
 - [RimScent: Incense Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3678830567)
-- RimScent Extended (the socle)
+- RimScent Extended (the foundation mod)
 
 No save data is added: it can be added to or removed from an ongoing game.
 
