@@ -12,3 +12,5 @@ Art/.render/
 
 # Steam sends Mod/ as it stands: desktop.ini must never be tracked.
 desktop.ini
+Tests/Pickle/Inbox/
+Tests/Pickle/Parked/

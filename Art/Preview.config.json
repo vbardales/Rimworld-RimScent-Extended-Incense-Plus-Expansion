@@ -12,7 +12,7 @@
   "background": { "file": "Preview-source.png" },
   "modIconSource": "ModIcon-source.png",
   "icon": { "file": "ModIcon-source.png" },
-  "echo": { "file": "echo.png" },
+  "echo": { "file": "echo-preview.png" },
   "palette": {
     "veil": "#35261D",
     "inkPrimary": "#F6EDE2",
