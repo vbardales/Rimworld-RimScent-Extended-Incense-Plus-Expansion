@@ -17,18 +17,17 @@ dependencies: declared
 workshop_required_items: n/a, not released yet
 workshop: 3811308373 (private item from the 0.1.0 prepublication; Steam creates every item private)
 published: no
-tested_on: never
+tested_on: "RimWorld 1.6 (WSL headless Pickle), Mod/ unchanged since a7b6e77; green 01-minimal-load EN 20261111-183129-114-75db (hetzner), FR 20261111-183132-313-9cc0 (azure), 2026-11-11"
 remaining:
-  - "2026-11-11: unverified: 8.c minimal Pickle pass filed on a7b6e77: English 20261111-183129-114-75db, French 20261111-183132-313-9cc0 (evidence Tests/Pickle/Inbox/minimal-load-en and -fr); read summary.json and junit.xml at RUN_DONE, then tested_on"
+  - "2026-11-12: 8.c minimal Pickle pass green EN and FR (1/1 each, evidence Tests/Pickle/Evidence/minimal-load-en and -fr); stays: 8.g functional scenarios, 1.7 pass"
   - "2026-11-11: unverified: 8.g functional scenarios of TEST_SCENARIOS.md not played"
   - "2026-11-11: unverified: 1.7 pass not started (tested_1_7 absent)"
   - "2026-11-11: defect: Preview-source.png background still shows Mental break threshold -20% while the def says -0.06; echo and 1.6 ribbon rendered as is"
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
   - "2026-11-11: unverified: Preview.png regenerated and committed in 023db5f; its values against the delivered defs not rechecked (earlier defect: values disagreed with the defs)"
-  - "2026-11-11: unverified: the minimal Pickle pass is written but not executed in English or French"
   - "2026-11-11: unverified: game load, dependency integration, research, construction, aroma effects, expiry, persistence, and French/English display never run"
 updated: 2026-11-11
-protocols_read_sha: 0a50ed1cd3ec92aca5af47e254c5194fe4ce0452
+protocols_read_sha: 9481d090854f082b638e84ad647a202fec7de6d2
 ---
 
 # RimScent Extended: Incense Plus Expansion — status
@@ -130,4 +129,4 @@ wordings). `translation_fr` is `complete`.
 Offline: `Tests/Rule-OwnValues.ps1` PASS (6 aromas, dependencies, About identity), replayed at 9063442; `Check-ModBasics`
 PASS; `Check-Translations` PASS; `Check-DefInjected` 89 keys, 0 errors. No unit-test project: the mod is XML only with no
 assembly (`Run-UnitTests.ps1` n/a), so `Rule-OwnValues.ps1` is the 7.b harness. Its row in `scripts/LOCAL_SCRIPTS.md` awaits Audit validation; the generated `Tests/Test-Mod.ps1` is asked of CI/CD.
-Pickle: `Tests/Pickle/Mod/Pickle/Features/01-minimal-load.feature` and `wsl-deps.sans-facultatifs.map` written, not executed.
+Pickle: `01-minimal-load.feature` executed 2026-11-11 on a7b6e77: green in English and French (Evidence).
