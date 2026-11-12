@@ -23,12 +23,12 @@ remaining:
   - "2026-11-12: 8.c minimal Pickle pass green EN and FR (1/1 each, evidence Tests/Pickle/Evidence/minimal-load-en and -fr); stays: 8.g functional scenarios, 1.7 pass"
   - "2026-11-11: unverified: 8.g functional scenarios of Docs/TEST_SCENARIOS.md not played"
   - "2026-11-11: unverified: 1.7 pass not started (tested_1_7 absent)"
-  - "2026-11-11: defect: Preview-source.png background still shows Mental break threshold -20% while the def says -0.06; echo and 1.6 ribbon rendered as is"
+  - "2026-11-12: Preview.png replaced by the owner-approved corrected render (values -0.06, +10%, +15% match the defs); Preview-source.png background still shows the old values, so do not rerun Render-Preview.cjs until a corrected source exists"
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
   - "2026-11-11: unverified: Preview.png regenerated and committed in 023db5f; its values against the delivered defs not rechecked (earlier defect: values disagreed with the defs)"
   - "2026-11-11: unverified: game load, dependency integration, research, construction, aroma effects, expiry, persistence, and French/English display never run"
 updated: 2026-11-12
-protocols_read_sha: 007e0b122a4c6c53162804fe97034c68a85d8be4
+protocols_read_sha: ba6b78893666b82100fbbc3d3769fbd913f735bf
 ---
 
 # RimScent Extended: Incense Plus Expansion: status
