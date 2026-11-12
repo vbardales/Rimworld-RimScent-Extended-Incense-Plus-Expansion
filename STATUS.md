@@ -19,7 +19,7 @@ workshop: 3811308373 (private item from the 0.1.0 prepublication; Steam creates 
 published: no
 tested_on: "RimWorld 1.6 (WSL headless Pickle), green 01-minimal-load EN 75db and FR 9cc0 on a7b6e77, 2026-11-11; Mod/About/About.xml changed after (em dashes), so Mod/ is no longer the tested revision: minimal pass to refile"
 remaining:
-  - "2026-11-12: unverified: 8.a Mod/About/About.xml changed after a7b6e77 (em dashes only); refile the minimal Pickle pass (EN and FR) on the current revision, then tested_on"
+  - "2026-11-12: unverified: 8.c minimal Pickle pass refiled on abb6277 after the em-dash and santal edits: English 20261112-180422-092-c5b1, French 20261112-180428-388-776a (evidence Tests/Pickle/Inbox/minimal-load-en and -fr); read summary.json and junit.xml at RUN_DONE, then tested_on"
   - "2026-11-12: 8.c minimal Pickle pass green EN and FR (1/1 each, evidence Tests/Pickle/Evidence/minimal-load-en and -fr); stays: 8.g functional scenarios, 1.7 pass"
   - "2026-11-11: unverified: 8.g functional scenarios of Docs/TEST_SCENARIOS.md not played"
   - "2026-11-11: unverified: 1.7 pass not started (tested_1_7 absent)"
@@ -132,4 +132,4 @@ PASS; `Check-Translations` PASS; `Check-DefInjected` 89 keys, 0 errors. No unit-
 assembly (`Run-UnitTests.ps1` n/a), so `Rule-OwnValues.ps1` is the 7.b harness. Its row in `scripts/LOCAL_SCRIPTS.md` awaits Audit validation; the generated `Tests/Test-Mod.ps1` is asked of CI/CD.
 Pickle: `01-minimal-load.feature` executed 2026-11-11 on a7b6e77: green in English and French (Evidence).
 
-Virginie's review of the French, second round: 2026-11-12, revision 12c6ed8 (TRANSLATION_REVIEW.md regenerated once). The 2026-11-11 validation rested on ChatGPT reviews run with the wrong page header, so the review was re-run: two passes, one README fix applied ("socle" to "foundation mod"), four suggestions refused and recorded in `Docs/review-refusals.md` (including "copeaux de bois de santal" chosen by Virginie over "bois de coeur" and "duramen"). She validated without corrections on 2026-11-12. `translation_fr` is `complete`.
+Virginie's review of the French, second round: 2026-11-12, revision abb6277 (TRANSLATION_REVIEW.md regenerated once, four review passes, last clean). The 2026-11-11 validation rested on ChatGPT reviews run with the wrong page header, so the review was re-run: two passes, one README fix applied ("socle" to "foundation mod"), four suggestions refused and recorded in `Docs/review-refusals.md` (including "copeaux de bois de santal" chosen by Virginie over "bois de coeur" and "duramen"). She validated without corrections on 2026-11-12. `translation_fr` is `complete`.
