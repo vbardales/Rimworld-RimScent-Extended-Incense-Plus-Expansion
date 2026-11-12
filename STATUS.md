@@ -21,7 +21,7 @@ tested_on: "RimWorld 1.6 (WSL headless Pickle), green 01-minimal-load EN 75db an
 remaining:
   - "2026-11-12: unverified: 8.a Mod/About/About.xml changed after a7b6e77 (em dashes only); refile the minimal Pickle pass (EN and FR) on the current revision, then tested_on"
   - "2026-11-12: 8.c minimal Pickle pass green EN and FR (1/1 each, evidence Tests/Pickle/Evidence/minimal-load-en and -fr); stays: 8.g functional scenarios, 1.7 pass"
-  - "2026-11-11: unverified: 8.g functional scenarios of TEST_SCENARIOS.md not played"
+  - "2026-11-11: unverified: 8.g functional scenarios of Docs/TEST_SCENARIOS.md not played"
   - "2026-11-11: unverified: 1.7 pass not started (tested_1_7 absent)"
   - "2026-11-11: defect: Preview-source.png background still shows Mental break threshold -20% while the def says -0.06; echo and 1.6 ribbon rendered as is"
   - "2026-11-11: unverified: upstream_mod_remotes set to N/A without a search for the RimScent repositories"
@@ -75,7 +75,7 @@ No RimWorld process or Pickle run was launched. Consequently, loading, integrati
 effects, persistence, and both language displays remain unverified. There is no production source
 project; the later gates remain blocked by the defective Preview and missing runtime evidence.
 
-The offline XML contract, `TEST_SCENARIOS.md`, and a development-only minimal Pickle companion
+The offline XML contract, `Docs/TEST_SCENARIOS.md`, and a development-only minimal Pickle companion
 now exist. The contract test passed locally; the Pickle feature is deliberately not counted as
 executed until an owned WSL run produces a terminal report in both English and French.
 
