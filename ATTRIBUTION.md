@@ -2,7 +2,7 @@
 
 ## RimScent, and its Incense Expansion
 
-by **reo / ocarina0001** — MIT.
+by **reo / ocarina0001**, MIT.
 
 - [RimScent](https://steamcommunity.com/sharedfiles/filedetails/?id=3645569466)
 - [RimScent: Incense Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3678830567)
@@ -20,7 +20,7 @@ The French translation of the Incense Expansion's four defs is original work.
 
 ## Rimcense: Neolithic Soothe
 
-by **velcroboy333** and **Hydromancerx** —
+by **velcroboy333** and **Hydromancerx**,
 [Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2532255863), 1.4.
 
 The idea of incenses with distinct mechanical effects comes from this mod, which is where
@@ -33,7 +33,7 @@ repository for Rimcense. There is consequently no source repository to base work
 a pull request; this is a current search result, not a claim that no private repository exists.
 
 Every ingredient here is vanilla. Sandalwood and frankincense are preparations of wood and
-herbal medicine, not new species — which is also why they are craftable on day one rather
+herbal medicine, not new species, which is also why they are craftable on day one rather
 than requiring a crop this mod does not add.
 
 ## This mod

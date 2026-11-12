@@ -8,7 +8,7 @@ Six incenses whose effects reach past the nose, for RimWorld 1.6.
 [RimScent](https://steamcommunity.com/sharedfiles/filedetails/?id=3645569466)'s
 [Incense Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3678830567)
 ships two sticks: one that lifts the mood a little, one that lowers it. This adds six more,
-each with a real effect on the body — in the spirit of *Rimcense: Neolithic Soothe*, which
+each with a real effect on the body, in the spirit of *Rimcense: Neolithic Soothe*, which
 never left 1.4.
 
 ## The six aromas
@@ -24,12 +24,12 @@ never left 1.4.
 
 Sandalwood is the barracks incense; frankincense the hospital one; cocoa is what you burn
 before a trade caravan arrives. Smokeleaf has the best mood in the set and the worst work
-speed, and an ascetic (`DrugDesire -1`) gets no mood out of it at all — the same treatment
+speed, and an ascetic (`DrugDesire -1`) gets no mood out of it at all, the same treatment
 the base game gives its own smokeleaf thoughts.
 
 The mood and the effect are two separate things. Standing in the room gives the colonist a
 `ThoughtDef`, which RimScent applies on its own, **and** a `HediffDef` on top of it, which
-RimScent cannot do — hence the dependency on the socle, which provides
+RimScent cannot do, hence the dependency on the socle, which provides
 `ModExtension_ScentHediff`. The hediff carries a `HediffCompProperties_Disappears` timer of
 1500 ticks that the scan pushes back on every pass, so an aroma follows the pawn out of the
 room and fades about 25 seconds later. RimScent's scan interval runs from 60 to 1000 ticks,
@@ -41,7 +41,7 @@ the smoke.
 One button in the Architect menu, six variants in its dropdown, each glowing in its own
 colour. They inherit from the Incense Expansion's own `RimScent_IncenseBurnerBase`, so they
 behave exactly like it: switchable, refuellable, a little light and a little heat. No
-texture is redistributed — the burners and the sticks reuse the Incense Expansion's own
+texture is redistributed, the burners and the sticks reuse the Incense Expansion's own
 textures, which is a hard dependency, and the six aromas are told apart by a `<color>` on
 the stack graphic.
 
@@ -51,14 +51,14 @@ The Incense Expansion sets no research requirement at all, while the Perfume Exp
 its content behind `PerfumeTech`. A permanent mood burner was therefore available on day one
 for four wood and four berries. Two neolithic research projects fix that:
 
-- **incense crafting** (500) — gates the original two recipes and the burner.
-- **aromatic incense** (1000, requires the above) — gates the six aromas here.
+- **incense crafting** (500), gates the original two recipes and the burner.
+- **aromatic incense** (1000, requires the above), gates the six aromas here.
 
 Both are neolithic and the first has no prerequisite, so a tribal start is not locked out of
 its own technology: the burner is neolithic and the crafting spot still works.
 
-The patch also drops `FueledSmithy` and `ElectricSmithy` from the original recipes — a forge
-works metal and has no business rolling fragrant sticks — and adds `DrugLab`, where the
+The patch also drops `FueledSmithy` and `ElectricSmithy` from the original recipes, a forge
+works metal and has no business rolling fragrant sticks, and adds `DrugLab`, where the
 perfumes of the sister expansion are already made. `CraftingSpot` stays.
 
 All three changes are `PatchOperation`s against the abstract parent defs, so nothing is
@@ -80,6 +80,6 @@ No save data is added: it can be added to or removed from an ongoing game.
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md).
+MIT, see [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md).
 
 Source code: [GitHub](https://github.com/vbardales/Rimworld-RimScent-Extended-Incense-Plus-Expansion).

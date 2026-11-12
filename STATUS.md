@@ -30,9 +30,9 @@ updated: 2026-11-11
 protocols_read_sha: 9481d090854f082b638e84ad647a202fec7de6d2
 ---
 
-# RimScent Extended: Incense Plus Expansion — status
+# RimScent Extended: Incense Plus Expansion: status
 
-## Audit — 2026-09-22
+## Audit: 2026-09-22
 
 This checkout is now an autonomous Git repository on `main` (`detached: yes`), created from the
 audited state without a subtree. Its `origin` is
@@ -78,7 +78,7 @@ The offline XML contract, `TEST_SCENARIOS.md`, and a development-only minimal Pi
 now exist. The contract test passed locally; the Pickle feature is deliberately not counted as
 executed until an owned WSL run produces a terminal report in both English and French.
 
-## Protocol follow-up — 2026-09-26
+## Protocol follow-up: 2026-09-26
 
 No Workshop item has been prepublished and no `Mod/About/PublishedFileId.txt` is expected in this
 checkout. The independently established Preview defect and the unexecuted runtime checks keep the
